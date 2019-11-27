@@ -1,9 +1,10 @@
-.my_container {
+body, html {
   height: 100%;
+  margin: 0;
 }
 
 .bg {
-  background-image: url("images/TenutaLaMorra_entrance.jpg");
+  background-image: url("images/TenutaLaMorra.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
