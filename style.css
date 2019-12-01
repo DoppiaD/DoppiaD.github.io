@@ -25,19 +25,11 @@ body, html {
 }
 
 .entrance {
-  background-image: url("images/entranceSave.png");
+  background-image: url("images/entranceSave2.png");
   flex-grow: 2;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  display: flex;
-  align-content: center;
-  align-items: center;
-  justify-content: center;
-}
-
-.text_center {
-  text-align: center;
 }
 
 .text {
