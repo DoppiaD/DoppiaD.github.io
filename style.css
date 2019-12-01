@@ -82,9 +82,47 @@ p {
 }
 
 
+/* ************** COLUMN */
 @media only screen
-and (min-width : 650px)
-and (orientation : landscape) {
+and (orientation : portrait) {
+  .wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    margin: 0;
+    padding: 0;
+  }
+
+  .text-wrapper {
+    height: calc(100% / 3);
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-content: center;
+  }
+  .anelli {
+    width: 20%;
+    height: auto;
+    margin-bottom: 3%;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 1em;
+  }
+
+  p {
+    font-size: 0.75em;
+  }
+}
+
+@media only screen
+and (min-height : 650px)
+and (orientation : portrait) {
   h1 {
     font-size: 2em;
   }
@@ -95,6 +133,70 @@ and (orientation : landscape) {
 
   p {
     font-size: 0.8em;
+  }
+}
+
+@media only screen
+and (min-height : 1000px)
+and (orientation : portrait) {
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+}
+
+@media only screen
+and (min-height : 1300px)
+and (orientation : portrait) {
+  h1 {
+    font-size: 4em;
+  }
+
+  h2 {
+    font-size: 2.75em;
+  }
+
+  p {
+    font-size: 1.25em;
+  }
+}
+
+@media only screen
+and (min-height : 1600px)
+and (orientation : portrait) {
+  h1 {
+    font-size: 5em;
+  }
+
+  h2 {
+    font-size: 3em;
+  }
+
+  p {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen
+and (min-width : 650px)
+and (orientation : landscape) {
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 0.9em;
   }
 }
 
