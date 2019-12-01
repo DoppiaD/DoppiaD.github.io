@@ -37,7 +37,7 @@ body, html {
 }
 
 .text-wrapper {
-  background-image: url("images/sfondo.png");
+  background-image: url("images/Sfondo.png");
   width: calc(100% / 3);
   display: flex;
   flex-flow: column nowrap;
