@@ -2,6 +2,14 @@
 font-family: 'Great Vibes', cursive;
 font-family: 'Montserrat', sans-serif;
 font-family: 'ManchesterSignature';
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape)
+and (orientation : portrait) {
+}
+
 */
 
 body, html {
@@ -60,15 +68,80 @@ p, h1, h2, h3, h4, h5 {
 
 h1 {
   font-family: 'Great Vibes', cursive;
-  font-size: 64px;
+  font-size: 1.5em;
 }
 
 h2 {
   font-family: 'Great Vibes', cursive;
-  font-size: 40px;
+  font-size: 1em;
 }
 
 p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
+  font-size: 0.75em;
+}
+
+
+@media only screen
+and (min-width : 650px)
+and (orientation : landscape) {
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 0.8em;
+  }
+}
+
+@media only screen
+and (min-width : 1000px)
+and (orientation : landscape) {
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+}
+
+@media only screen
+and (min-width : 1300px)
+and (orientation : landscape) {
+  h1 {
+    font-size: 4em;
+  }
+
+  h2 {
+    font-size: 2.75em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+}
+
+@media only screen
+and (min-width : 1600px)
+and (orientation : landscape) {
+  h1 {
+    font-size: 5em;
+  }
+
+  h2 {
+    font-size: 3em;
+  }
+
+  p {
+    font-size: 1.25em;
+  }
 }
